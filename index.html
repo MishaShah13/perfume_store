@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Perfume Collection</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- Font Awesome CDN for social icons -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+</head>
+
+<body>
+
+    <!-- NAVBAR -->
+    <nav>
+        <h2 class="logo">Smell</h2>
+        <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#collections">Collections</a></li>
+            <li><a href="#smell">Smell</a></li>
+            <li><a href="#men">Men</a></li>
+            <li><a href="#women">Women</a></li>
+        </ul>
+    </nav>
+
+    <!-- HERO -->
+    <section class="hero" id="home">
+        <div class="hero-text">
+            <h1>Find Your Signature Scent</h1>
+            <p>Luxury perfumes crafted for unforgettable moments.</p>
+        </div>
+    </section>
+
+    <!-- COLLECTIONS -->
+    <section id="collections">
+        <h2>Our Collections</h2>
+
+        <div class="filter-buttons">
+            <button onclick="filterProducts('all')">All</button>
+            <button onclick="filterProducts('new')">New Arrivals</button>
+            <button onclick="filterProducts('best')">Best Selling</button>
+        </div>
+
+        <div class="product-grid">
+
+            <div class="product" data-category="best">
+                <span class="tag">20% OFF</span>
+                <img src="images/eliesaab.jpg" alt="">
+                <h3>Chanel</h3>
+                <p>$50</p>
+            </div>
+
+            <div class="product" data-category="new">
+                <span class="tag">NEW</span>
+                <img src="images/regalia.jpg" alt="">
+                <h3>Dior</h3>
+                <p>$40</p>
+            </div>
+
+            <div class="product" data-category="best">
+                <span class="tag">Best Seller</span>
+                <img src="images/zarvina.jpg" alt="">
+                <h3>Gucci</h3>
+                <p>$60</p>
+            </div>
+
+            <div class="product" data-category="new">
+                <span class="tag">15% OFF</span>
+                <img src="images/aerin.jpg" alt="">
+                <h3>Jo Malone</h3>
+                <p>$72</p>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- SMELL -->
+    <section id="smell">
+        <h2>Smell Experience</h2>
+        <div class="info-grid">
+
+            <div class="info-card">
+                <img src="images/floral.jpg" alt="">
+                <h3>Floral Scent</h3>
+                <p>Soft and romantic fragrances, perfect for daily wear.</p>
+            </div>
+
+            <div class="info-card">
+                <img src="images/woody.jpg" alt="">
+                <h3>Woody Touch</h3>
+                <p>Warm, deep, and long-lasting scents for bold personalities.</p>
+            </div>
+
+            <div class="info-card">
+                <img src="images/citrus.jpg" alt="">
+                <h3>Citrus</h3>
+                <p>Fresh and energizing aromas to uplift your mood.</p>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- MEN -->
+    <section id="men">
+        <h2>Men Collection</h2>
+        <div class="info-grid">
+            <div class="info-card">
+                <img src="images/men1.jpg" alt="">
+                <h3>Coco Chanel</h3>
+                <p>Classic and sophisticated scent for men.</p>
+            </div>
+            <div class="info-card">
+                <img src="images/men2.jpg" alt="">
+                <h3>Sauvage</h3>
+                <p>Fresh, bold, and iconic fragrance.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- WOMEN -->
+    <section id="women">
+        <h2>Women Collection</h2>
+        <div class="info-grid">
+            <div class="info-card">
+                <img src="images/women1.jpg" alt="">
+                <h3>Rose Bloom</h3>
+                <p>Elegant and soft rose fragrance, perfect for every occasion.</p>
+            </div>
+            <div class="info-card">
+                <img src="images/women2.jpg" alt="">
+                <h3>Velvet Scent</h3>
+                <p>Luxurious and sweet floral aroma with lasting charm.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- FOOTER -->
+    <footer>
+        <div class="footer-container">
+
+            <div class="footer-section">
+                <h3>About Us</h3>
+                <p>Smell is your premium fragrance destination. We bring you luxury perfumes with timeless elegance and unforgettable scents.</p>
+            </div>
+
+            <div class="footer-section">
+                <h3>Support</h3>
+                <ul>
+                    <li><a href="#">FAQs</a></li>
+                    <li><a href="#">Shipping Info</a></li>
+                    <li><a href="#">Return Policy</a></li>
+                    <li><a href="#">Customer Service</a></li>
+                </ul>
+            </div>
+
+            <div class="footer-section">
+                <h3>Follow Us</h3>
+                <ul class="social-links">
+                    <li><a href="#">Instagram</a></li>
+                    <li><a href="#">TikTok</a></li>
+                    <li><a href="#">Facebook</a></li>
+                </ul>
+            </div>
+
+            <div class="footer-section">
+                <h3>Contact</h3>
+                <p>Email: support@smell.com</p>
+                <p>Phone: +92 300 1234567</p>
+                <p>Location: Karachi, Pakistan</p>
+            </div>
+
+        </div>
+
+        <div class="footer-bottom">
+            © 2025 Smell Fragrances | Designed by Mishie 🌸
+        </div>
+    </footer>
+    <!-- Floating Social Media Icons -->
+<div class="floating-social">
+    <a href="#" class="social-icon"><i class="fab fa-instagram"></i></a>
+    <a href="#" class="social-icon"><i class="fab fa-tiktok"></i></a>
+    <a href="#" class="social-icon"><i class="fab fa-facebook-f"></i></a>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
+
+
+
+
